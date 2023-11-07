@@ -98,14 +98,9 @@ v3.0 hex words plain
 Q: Are the instructions case sensitive?   
 A: No, using re.IGNORECASE(), the software can handle any form of input
 Q: Inputs using decimal form and 0x[number] are the same?
- 
 A: No, it will be converted to hexadecimal value. So if the input is 0x05, when converted it will be 05.
 However, if the input is 5 the output will be 0f, as seen in the example above
-
-3. Q: Does it need the ".data" section to work?
-   
+Q: Does it need the ".data" section to work?
 A: No, it only requires the ".code" section
-
-4. Q:Does it work without identantion?
-   
+Q:Does it work without identantion?
 A: Yes
