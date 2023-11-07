@@ -74,7 +74,7 @@ Input (assembly file)
     word 0x15
 ```
 Output (memory file)
-
+```
 v3.0 hex words plain
 
 81 91 a1 b1 20 0f 23 05 c1 d1 e1 f1 01 11 33 40 
@@ -108,17 +108,21 @@ v3.0 hex words plain
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
 
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-
+```
 # FAQ 
 1. Q: Are the instructions case sensitive?
+   
 A: No, using re.IGNORECASE(), the software can handle any form of input
 
 2. Q: Inputs using decimal form and 0x[number] are the same?
+   
 A: No, it will be converted to hexadecimal value. So if the input is 0x05, when converted it will be 05.
 However, if the input is 5 the output will be 0f, as seen in the example above
 
 3. Q: Does it need the ".data" section to work?
+   
 A: No, it only requires the ".code" section
 
 4. Q:Does it work without identantion?
+   
 A: Yes
