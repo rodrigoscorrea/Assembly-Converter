@@ -45,7 +45,7 @@ Not using ALU:
 # Example
 
 Input (assembly file)
-
+```
 .code 
     add r0,r1
     shr r0,r1
@@ -72,7 +72,7 @@ Input (assembly file)
 .data 
     word 10
     word 0x15
-
+```
 Output (memory file)
 
 v3.0 hex words plain
