@@ -15,7 +15,7 @@ See the example in the end for completely understandment
 
 # Reserved Words
 - ".code" : starts the coding section
-- "data" : starts the data section
+- ".data" : starts the data section
 - word : input a data in the memory
 - halt : loops the program infinitely
 - move : move the data from a register to another register, cleaning the old information
