@@ -37,10 +37,10 @@ Not using ALU:
 - Data
 - Out
 - In
-- Clf
+- Clf (clear all flags)
 - Jmp
-- Jcaez
-- Jmpr
+- Jcaez (jump if C:carry A:a_larger E:equal Z:zero)
+- Jmpr 
 
 # Example
 
